@@ -3,9 +3,40 @@
 <head>
     <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Naomi Serrano</title>
+    <meta name="author" content="Naomi Serrano">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Naomi Fabiola Serrano Bravo - software development student, portfolio, HTML, CSS, JavaScript, Paulínia Brazil">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    <h1>WDD 131-Naomi</h1>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/home">Linkedin</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/6?lang=eng&id=p36#p36">Scripture</a>
+            <a href="project.html">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Naomi Fabiola Serrano Bravo</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile picture of Naomi Serrano" width="400" height="300" loading="lazy">
+            <p>Hello! I am a software development student living in Paulínia, Brazil. I am passionate about building clean, responsive web applications and learning modern web technologies.</p>
+        </section>
+
+        <section class="card">
+            <h2>Paulínia, Brazil</h2>
+            <img src="images/location.jpg" alt="Location representation of Paulínia, Brazil" width="400" height="300" loading="lazy">
+            <p>Paulínia is an industrial municipality located in the state of São Paulo, Brazil. It is widely known for its petrochemical hub, cultural spaces, and vibrant technological growth. It's a wonderful place to live and pursue a career in software development.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🌸 Naomi Fabiola Serrano Bravo 🌸 São Paulo, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
 </body>
 </html>
